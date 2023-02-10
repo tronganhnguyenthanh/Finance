@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+.App{
+  background-color:#E5E5E5
+}
+
+.header{
+  width:100%;
+  height:40px;
+  background:#383F50
+}
+
+.image > img{
+  width:73%;
+  padding:1px
+}
+
+.image{
+  position:relative;
+  top:-3px;
+  padding:2px;
+}
+
+.image > h3{
+  position: absolute;
+  top:14%;
+  left:23%;
+  color:#fff;
+  font-size:25px;
+  font-weight:800;
+  font-family:"Nunito Sans", sans-serif;
+  font-size:25px;
+  text-transform:uppercase
+}
+
+.wrapper{
+  display:flex;
+  margin-top:0.7%
+}
+
+.finance-calculator{
+  color:#fff !important;
+  font-family:"Nunito Sans", sans-serif !important;
+  font-weight:400 !important;
+  font-size:18px !important;
+  padding:21px !important
+}
+
+.project-name > h4{
+  margin-left:-8%;
+  padding:2px;
+  color:#fff;
+  text-transform:capitalize;
+  font-family:"Nunito Sans", sans-serif;
+  font-weight:700;
+  font-size:20;
+  margin-top:2%
+}
+
+.hero{
+  width:100%;
+  height:auto;
+  background:#383F50
+}
+
+.financial-title{
+  font-family:"Nunito Sans", sans-serif;
+  font-weight:900;
+  color:#fff;
+  text-transform:capitalize;
+  font-size:62px
+}
+
+.financial-description{
+  color:#fff;
+  font-family:"Nunito Sans", sans-serif;
+  font-weight:400;
+  font-size:18px
+}
+
+.btn-learn-more{
+  width:40%;
+  background-color:#FF8049 !important;
+  border:none !important;
+  border-top-left-radius:0 !important;
+  border-bottom-right-radius:0 !important;
+  border-bottom-left-radius:0 !important;
+  border-top-right-radius:0 !important;
+  margin:4px
+}
+
+.btn-learn-more{
+  font-family:"Nunito Sans", sans-serif;
+  font-weight:500 !important;
+  font-size:18px !important
+}
+
+body{
+  overflow-x:hidden !important;
+  overflow-y:scroll !important
+}
+
+.vector4{
+  width:98%;
+  margin-top:2%;
+  margin-left:-5%
+}
+
+.vector5{
+  width:98%;
+  margin-top:-45%;
+  margin-left:10%
+}
+
+.intro-title{
+  text-transform:capitalize;
+  text-align:center;
+  font-family:"Nunito Sans", sans-serif;
+  font-weight:900;
+  padding-top:3%
+}
+
+.image-card{
+  display:flex;
+  justify-content:center;
+  padding:10px
+}
+
+.image-card > img{
+  height:31px
+}
+
+.checkbox{
+  margin-left:-8%;
+  width:7%;
+  height:2% !important;
+  margin-top:1%
+}
+
+.advisor{
+  text-align:center;
+  font-family:"Nunito Sans", sans-serif;
+  font-size:30px;
+  font-weight:700;
+  text-transform:capitalize;
+  padding:10px;
+}
+
+.service-description{
+  text-align:center;
+  font-family:"Nunito Sans", sans-serif;
+  font-style:normal;
+  font-weight:400;
+  font-size:18px;
+  color:#5F626B;
+  padding:10px
+}
+
+.mortgage-calculator{
+  width:100%;
+  height:auto;
+  border:1px solid #E5E5E5;
+  display:flex;
+  padding-top:3%
+}
+
+.left-mortgage-calculator{
+  width:50%;
+  height:auto;
+  background-color:#383F50
+}
+
+.title-mortgage-calculator{
+  text-transform:capitalize;
+  color:#fff;
+  font-family:"Nunito Sans", sans-serif;
+  font-weight:900;
+  text-align:center;
+  font-size:50px
+}
+
+.title-mortgage-calculator-description{
+  color:#fff;
+  font-size:18px;
+  font-family:"Nunito Sans", sans-serif;
+  font-style:normal;
+  font-weight:400;
+  margin-left:15%
+}
+
+.mortgage-label{
+  margin-left:31%;
+  color:#fff;
+  font-weight:900;
+  font-family:"Nunito Sans", sans-serif;
+  font-size:18px
+}
+
+.mortgage-input:focus{
+  box-shadow:none !important
+}
+
+.mortgage-input{
+  border-radius:25px !important
+}
+
+.mortgage-input-purchase:focus{
+  box-shadow:none !important
+}
+
+.right-down-payment{
+  margin-left:-12%
+}
+
+.mortgage-loan-amount{
+  margin-left:15%;
+  color:#fff;
+  font-weight:900;
+  font-family:"Nunito Sans", sans-serif;
+  font-size:18px
+}
+
+.mortgage-label-down-payment{
+  margin-left:30%;
+  color:#fff;
+  font-weight:900;
+  font-family:"Nunito Sans", sans-serif;
+  font-size:18px
+}
+
+.text-loan-amount{
+  color:#FF8049;
+  font-family:"Nunito Sans", sans-serif;
+  font-size:24px;
+  font-weight:900
+}
+
+.right-mortgage-text-block{
+  width:50%;
+  height:auto;
+  background-color:#E5E5E5;
+  margin-top:3%;
+}
+
+.right-title-calculator{
+  font-family:"Nunito Sans", sans-serif;
+  font-size:60px;
+  font-weight:900;
+  color:#383F50;
+  letter-spacing:1%;
+  line-height:84px;
+  padding:10px;
+  padding-left:10%;
+}
+
+.right-title-calculator::first-letter{
+  text-transform:capitalize;
+}
+
+.right-mortgage-text-block > p {
+  font-family:"Nunito Sans", sans-serif;
+  font-weight:400;
+  font-size:18px;
+  color:#585C65;
+  padding:10px;
+  padding-left:10%
+}
+
+.btn-register{
+  width:40%;
+  background-color:#FF8049 !important;
+  border:none !important;
+  border-top-left-radius:0 !important;
+  border-bottom-right-radius:0 !important;
+  border-bottom-left-radius:0 !important;
+  border-top-right-radius:0 !important;
+  padding:10px !important;
+  margin-left:10% !important
+}
+
+.mortgage-footer{
+  width:100%;
+  height:auto;
+  border:1px solid #E5E5E5;
+  padding-top:3%
+}
+
+.image-footer > img{
+  width:15%
+}
+
+.image-footer{
+  display:flex;
+  margin-top:5%
+}
+
+.image-footer > h3{
+  margin-top:3%;
+  padding:2px;
+  font-family:"Nunito Sans", sans-serif;
+  font-style:normal;
+  font-weight:700;
+  font-size:25px;
+  margin-left:-10%;
+  color:#fff;
+  text-transform:uppercase
+}
+
+.footer-name > h4{
+  margin-left:15%;
+  padding:2px;
+  color:#383F50;
+  text-transform:capitalize;
+  font-family:"Nunito Sans", sans-serif;
+  font-weight:700;
+  font-size:20px;
+  margin-top:-11%
+}
+
+.footer-winning{
+  font-family:"Nunito Sans", sans-serif;
+  padding:30px 10px 10px 10px;
+  font-weight:400;
+  font-size:20px;
+  line-height:36px;
+  color:#585C65
+}
+
+.image-social > h3{
+  margin-top:-12%;
+  margin-left:6%;
+  color:#fff
+}
+
+.image-social > img{
+  padding:7px
+}
+
+.footer-name > p{
+  margin-left:16%;
+  font-family:"Nunito Sans", sans-serif;
+  font-style:normal;
+  font-weight:400;
+  font-size:18px;
+  color:#70737C;
+  line-height:180%
+}
+
+.image-social > a{
+  padding:10px
+}
+
+/* Responsive in Iphone */
+@media (max-width:576px){
+  .financial-title{
+    display:none
+  }
+
+  .financial-description{
+    display:none
+  }
+
+  .btn-learn-more{
+    display:none !important
+  }
+
+  .vector4{
+    display:none !important
+  }
+
+  .vector5{
+    display:none !important
+  }
+
+  .header{
+    height:40% !important
+  }
+
+  .finance-calculator{
+    padding:4px !important;
+    padding-left:3% !important
+  }
+
+  .image{
+    position:relative;
+    top:-2px
+  }
+
+  .project-name > h4{
+    margin-top:4%
+  }
+
+  .checkbox{
+    margin-left:-9%;
+    width:8%;
+    margin-top:1%
+  }
+
+  .mortgage-calculator{
+    display:flex;
+    flex-direction:column;
+    width:200%
+  }
+
+  .responsive-purchase-price{
+    margin-left:-13% !important
+  }
+
+  .responsive-repayment-time{
+    margin-left:-12% !important
+  }
+
+  .title-mortgage-calculator{
+    margin-left:-10%
+  }
+
+  .mortgage-loan-amount{
+    margin-left:19%
+  }
+
+  .text-loan-amount{
+    display:flex;
+    margin-left:19%
+  }
+
+  .right-title-calculator{
+    font-size:40px;
+    line-height:114%
+  }
+  
+  .image-social{
+    margin-left:20%
+  }
+
+  .footer-text{
+    margin-left:36% !important
+  }
+
+  .footer-name > p{
+    margin-left:37%
+  }
+}
