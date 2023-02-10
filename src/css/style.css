@@ -438,4 +438,9 @@ body{
   .footer-name > p{
     margin-left:37%
   }
+
+  html, body{
+   overflow-y:scroll !important
+  }
+
 }
