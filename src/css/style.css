@@ -349,6 +349,17 @@ body{
   padding:10px
 }
 
+.btn-random-cat{
+  width:25%;
+  background-color:#FF8049 !important;
+  border:none !important;
+  border-top-left-radius:0 !important;
+  border-bottom-right-radius:0 !important;
+  border-bottom-left-radius:0 !important;
+  border-top-right-radius:0 !important;
+  margin:7px !important
+}
+
 /* Responsive in Iphone */
 @media (max-width:576px){
   .financial-title{
