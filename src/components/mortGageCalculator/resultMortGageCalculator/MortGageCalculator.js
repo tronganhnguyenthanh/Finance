@@ -1,5 +1,5 @@
 import React from "react"
-import LeftMorGageCalculator from "./LeftMortGageCalculator"
+import LeftMorGageCalculator from "../leftMortgageCalculator/LeftMortGageCalculator"
 const MortGageCalculator = () => {
   return (
    <>
